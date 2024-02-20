@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-cadet);
+}
+
+.home__separator{
+    width: 80%;
+    margin: 1rem 0;
+}
+
+.home__btn{
+    background-color: var(--color-maastricht-blue);
+    border: 1px solid var(--color-cadet);
+    color: var(--color-cadet);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

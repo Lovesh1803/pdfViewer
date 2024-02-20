@@ -1,0 +1,50 @@
+.bookmark {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid var(--color-primary);
+}
+.bookmark__header{
+    width: 100%;
+    background-color: var(--color-primary);
+    padding: 1rem;
+}
+
+.bookmark__title{
+
+}
+
+.bookmark__badge{
+    color: var(--color-secondary);
+}
+
+.bookmark__card{
+    width: 100%;
+    background-color: var(--color-maastricht-blue);
+    border-bottom: 1px solid var(--color-cadet);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bookmark__detail-wrapper{
+    padding: 0.5rem;
+}
+
+.bookmark__card-title{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.bookmark__card-date{
+    font-size: 0.6rem;
+    text-align: left;
+    margin-top: 0.2rem;
+}
+
+.bookmark__remove-icon{
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
